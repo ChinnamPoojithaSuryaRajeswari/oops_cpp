@@ -18,10 +18,17 @@ class Student{
 	{
 		cout<<name<<" "<<collage<<" "<<branch<<" "<<marks<<" "<<roll;
 	}
+	void modification()
+	{
+		collage="aditya";
+		branch="aec";
+	}
 };
 int main()
 {
 	Student s1("xyz","Aditya","CSE",90.9,12);
+     s1.modification();
 	s1.display();
+	
 	return 0;
 }
